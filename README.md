@@ -3,7 +3,7 @@
 
 [Särkkä, S., & Nummenmaa, A. (2009). Recursive noise adaptive Kalman filtering by variational Bayesian approximations.IEEE Transactions on Automatic Control, 54(3).](http://www.lce.hut.fi/~ssarkka/pub/vb-akf-ieee.pdf)
 
-Pythonで実装したもの。通常のカルマンフィルタでは不可能な、時間変化するノイズの分散を推論時に学習可能
+Pythonで実装したもの。通常のカルマンフィルタでは不可能な、時間変化する観測信号のノイズの分散を推定出来ます
 
 だた個人的な感覚では、分散の推定精度はそんなに良くはなく（真の分散値に至るまでけっこうな数のイテレーションを要する、ばらつきも大きい）、しかもヘタすると発散する…
 
